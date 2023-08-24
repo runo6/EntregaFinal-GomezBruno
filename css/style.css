@@ -1,0 +1,141 @@
+/* Estilo general de la página */
+body {
+  font-family: 'Fira Code', monospace;
+  background-color: #111;
+  color: #ddd;
+  margin: 0;
+  padding: 0;
+}
+
+/* Estilos para la barra de navegación */
+.navbar {
+  height: 125px;
+  background-color: #222;
+}
+
+/* Estilos para el texto del logotipo y "CODEBURGER" */
+.navbar-brand, .navbar-text {
+  color: #F0DB4F; 
+  font-size: 24px;
+  font-weight: bold;
+}
+
+/* Estilo de ancho máximo para el contenedor de combos */
+.combo-container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/* Estilos para el contenedor principal */
+.container {
+  max-width: 800px;
+  margin: 0 auto; 
+  padding: 20px; 
+}
+
+/* Estilos para los títulos */
+h1 {
+  text-align: center;
+}
+
+/* Estilo de la caja del simulador */
+.simulador {
+  background-color: #222;
+  color: #fff; /* Letras en blanco */
+  border: 5px solid #333;
+  border-radius: 5px;
+  padding: 20px;
+}
+
+/* Estilos para los elementos de código */
+.code-box p {
+  font-family: 'Fira Code', monospace;
+  margin: 0;
+}
+
+.code-box strong {
+  color: #F0DB4F;
+}
+
+/* Estilos para los label */
+label {
+  display: block; 
+  margin-bottom: 5px; 
+}
+
+/* Estilos para los input */
+input[type="radio"],
+input[type="checkbox"] {
+  margin-right: 5px;
+}
+
+/* Estilos para las imágenes y su contenedor */
+.combo-label {
+  cursor: pointer;
+  text-align: center;
+  display: inline-block;
+}
+
+.combo-img {
+  border: 2px solid transparent;
+  border-radius: 20px;
+  margin-top: 5px;
+}
+
+input[type="radio"]:checked + .combo-img {
+  border-color: #F0DB4F;
+  box-shadow: 0 0 5px #F0DB4F; 
+}
+
+.combo-name {
+  margin-top: 5px;
+  color: white;
+  font-weight: bold;
+}
+
+/* Estilos para los botones de pedido */
+.btn-group {
+  display: flex;
+  justify-content: center;
+}
+
+#btn-agregar,
+#btn-finalizar,
+#btn-limpiar {
+  margin-right: 10px;
+}
+
+/* Estilos para el texto del resultado y pedido */
+#resultado, #pedido {
+  color: white; 
+  font-size: 18px;
+  margin-top: 20px;
+}
+
+/* Estilos para los elementos del pedido */
+.pedido-item {
+  margin-bottom: 10px;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 10px;
+}
+
+/* Estilos para los botones de pedido */
+#btn-agregar,
+#btn-finalizar,
+#btn-limpiar {
+  background-color: #F0DB4F; 
+  border-color: #F0DB4F; 
+}
+
+#btn-limpiar {
+  background-color: #323330; 
+  border-color: #323330; 
+}
+
+.highlight {
+  color: #FF9800; 
+}
+
+.number-highlight {
+  color: #2196F3;
+}
